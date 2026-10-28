@@ -5,18 +5,11 @@ Next.js 15 (App Router) + MongoDB Atlas + Tailwind CSS. Frontend and API live in
 ## Setup
 ```bash
 npm install
-cp .env.example .env      # fill MONGODB_URI (Atlas) and JWT_SECRET
 npm run seed              # demo users, links and ~14 days of clicks
 npm run dev               # http://localhost:3000
-npm test                  # 7 automated tests (node:test, no DB needed)
-```
-Atlas: allow your IP under Network Access and use a database user's connection string.
 
-## Demo logins (after `npm run seed`)
-| Email | Password |
-|---|---|
-| demo@example.com | Demo@1234 |
-| demo2@example.com | Demo@1234 |
+```
+Atlas: allow your IP under Network Access and use a database user's connection string
 
 Seeded links: `/demo-docs`, `/demo-news` (active), `/demo-off` (disabled page), `/demo-old` (expired page).
 
