@@ -9,7 +9,7 @@ npm run seed              # demo users, links and ~14 days of clicks
 npm run dev               # http://localhost:3000
 
 ```
-Atlas: allow your IP under Network Access and use a database user's connection string
+
 
 Seeded links: `/demo-docs`, `/demo-news` (active), `/demo-off` (disabled page), `/demo-old` (expired page).
 
