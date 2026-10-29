@@ -32,5 +32,4 @@ Done: register/login/logout, create (auto or custom alias, expiry), redirect, ex
 Not done: QR codes, password reset, email verification, bot filtering, click aggregation by pre-computed counters (analytics reads up to 5000 latest clicks per link), integration tests against a real DB, deployment.
 With more time: QR codes, per-day aggregate collection, edit expiry in the UI, IP-based limit on auth endpoints, e2e tests.
 
-## AI tools used
-Claude (Anthropic) generated the project scaffold, code and tests; I reviewed and ran the tests.
+
